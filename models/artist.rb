@@ -1,4 +1,3 @@
-require('pg')
 require_relative('sql_runner')
 
 class Artist
@@ -17,5 +16,10 @@ class Artist
     values =[@name]
     result = SqlRunner.run(sql, values)
     @id = result[0]['id'].to_i
+  end
+
+  def self.all
+    sql =
+    values =
   end
 end
