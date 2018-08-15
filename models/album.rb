@@ -43,6 +43,19 @@ class Album
   end
 
 
+  def self.find_by_id(wanted_id)
+    sql ="SELECT * FROM albums
+    WHERE id = $1"
+    values = [wanted_id]
+    result = SqlRunner.run(sql, values)
+
+    if result.count > 0
+      return result[0]
+    else
+      return nil
+    end
+  end
+
   def self.all()
     sql = "SELECT * FROM albums"
     albums = SqlRunner.run(sql)
