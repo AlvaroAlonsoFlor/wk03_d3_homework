@@ -10,7 +10,7 @@ artist2 = Artist.new({
   'name' => 'Hans Zimmer'
   })
 
-# artist2.save()
+artist2.save()
 
 album1 = Album.new({
   'title' => 'Tubular Bells',
