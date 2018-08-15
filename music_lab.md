@@ -9,7 +9,7 @@ In their console they would like to be able to:
 * List All Artists/Albums DONE
 
 * List all the albums they have by an artist
-* Show the artist any album belongs to
+* Show the artist any album belongs to DONE
 
 Every artist should have a name, and each album should have a name/title, genre and artist ID.
 

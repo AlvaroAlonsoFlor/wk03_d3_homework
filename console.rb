@@ -6,14 +6,25 @@ artist1 = Artist.new({
   'name' => 'Mike Olfield'
   })
 
+artist1.save()
+
 album1 = Album.new({
   'title' => 'Tubular Bells',
   'genre' => 'instrumental',
-  'artist_id' => '2'
+  'artist_id' => artist1.id
   })
 
-# artist1.save()
-# album1.save()
+album2 = Album.new({
+  'title' => 'Tubular Bells II',
+  'genre' => 'instrumental',
+  'artist_id' => artist1.id
+  })
+
+
+
+
+album1.save()
+album2.save()
 
 binding.pry
 nil
