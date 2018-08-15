@@ -8,7 +8,7 @@ In their console they would like to be able to:
 * Create and Save Albums DONE
 * List All Artists/Albums DONE
 
-* List all the albums they have by an artist
+* List all the albums they have by an artist DONE
 * Show the artist any album belongs to DONE
 
 Every artist should have a name, and each album should have a name/title, genre and artist ID.
@@ -17,7 +17,7 @@ Every artist should have a name, and each album should have a name/title, genre 
 
 Additionally it would be nice to be able to:
 
-* Edit Artists/Albums
+* Edit Artists/Albums DONE
 * Delete Artists/Albums
 * Find Artists/Albums by their ID
 
